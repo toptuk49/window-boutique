@@ -1985,8 +1985,8 @@ img {
   }
 
   .reliable .reliable-container .right-reliable-image-container {
-    top: 420px;
-    right: 10%;
+    top: 400px;
+    right: 5%;
   }
 
   .reliable .reliable-container .right-reliable-image-container .reliable-vector {
@@ -2289,7 +2289,7 @@ img {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 440px) {
   .reliable .reliable-container .right-reliable-image-container {
     top: 420px;
     right: 5%;
