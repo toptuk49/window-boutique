@@ -1651,7 +1651,7 @@ img {
 
 .webp .example .example-video-container { background-image: url(../img/video-background.webp); background-position: center; background-repeat: no-repeat; }
 
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   body {
     overflow-x: hidden;
   }
@@ -1696,104 +1696,99 @@ img {
     display: none;
   }
 
+  .header .header-container .header-logo .header-logo-container .header-logo-img {
+    height: 68px;
+    width: 91.52px;
+  }
 
+  .header .header-container .direction-container .direction-header {
+    font-size: 18px;
+    line-height: 21.76px;
+    margin-bottom: 0;
+  }
 
+  .header .header-container .direction-container .direction-text {
+    font-size: 15px;
+    line-height: 17.4px;
+    margin-bottom: 0;
+  }
 
-  @media (max-width: 830px) {
-    .header .header-container .header-logo .header-logo-container .header-logo-img {
-      height: 68px;
-      width: 91.52px;
-    }
-  
-    .header .header-container .direction-container .direction-header {
-      font-size: 18px;
-      line-height: 21.76px;
-      margin-bottom: 0;
-    }
-  
-    .header .header-container .direction-container .direction-text {
-      font-size: 15px;
-      line-height: 17.4px;
-      margin-bottom: 0;
-    }
-  
-    .header .header-container .direction-container .direction-undertext {
-      font-size: 13px;
-      line-height: 15.08px;
-      margin-bottom: 0;
-    }
-  
-    .header .header-container .schedule-container .schedule-header {
-      font-size: 18px;
-      line-height: 21.76px;
-      margin-bottom: 0;
-    }
-  
-    .header .header-container .schedule-container .schedule-text {
-      font-size: 15px;
-      line-height: 17.4px;
-      margin-bottom: 0;
-    }
-  
-    .header .header-container .contact-container .number {
-      font-size: 18px;
-      line-height: 20px;
-      margin-bottom: 0;
-    }
-  
-    .header .header-container .contact-container .number-description {
-      font-size: 12px;
-      line-height: 20px;
-      margin-bottom: 0;
-    }
-  
-    .header .frameless-glazing-container .left-frameless-glazing-container .frameless-glazing-header-container .frameless-glazing-header-item:nth-child(2),
-    .header .frameless-glazing-container .left-frameless-glazing-container .frameless-glazing-header-container .frameless-glazing-header-item:nth-child(3) {
-      font-size: 28px;
-      line-height: 33.85px;
-    }
-  
-    .header .frameless-glazing-container .left-frameless-glazing-container .frameless-glazing-header-container .frameless-glazing-header-item:first-child {
-      font-size: 15px;
-      line-height: 17.4px;
-    }
-  
-    .header .frameless-glazing-container .left-frameless-glazing-container .frameless-glazing-description {
-      font-size: 15px;
-      line-height: 17.4px;
-    }
-  
-    .header .frameless-glazing-container .left-frameless-glazing-container .under-frameless-order-button-description {
-      font-size: 12.5px;
-      line-height: 15.11px;
-    }
-  
-    .header .frameless-glazing-container {
-      display: block;
-      position: relative;
-    }
-  
-    .header .frameless-glazing-container .left-frameless-glazing-container {
-      position: absolute;
-      background-color: rgba(255, 255, 255, .7);
-      margin-left: 0;
-      padding-left: 20px;
-      padding-top: 8px;
-      width: calc(100% - 20px);
-      bottom: -55px;
-    }
-  
-    .header .frameless-glazing-container .left-frameless-glazing-container .frameless-glazing-description br {
-      display: block;
-    }
-  
-    .header .frameless-glazing-container .left-frameless-glazing-container .frameless-order-button {
-      font-size: 15px;
-      line-height: 17.4px;
-      padding: 13px 0;
-      width: 208px;
-      text-align: center;
-    }
+  .header .header-container .direction-container .direction-undertext {
+    font-size: 13px;
+    line-height: 15.08px;
+    margin-bottom: 0;
+  }
+
+  .header .header-container .schedule-container .schedule-header {
+    font-size: 18px;
+    line-height: 21.76px;
+    margin-bottom: 0;
+  }
+
+  .header .header-container .schedule-container .schedule-text {
+    font-size: 15px;
+    line-height: 17.4px;
+    margin-bottom: 0;
+  }
+
+  .header .header-container .contact-container .number {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  .header .header-container .contact-container .number-description {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  .header .frameless-glazing-container .left-frameless-glazing-container .frameless-glazing-header-container .frameless-glazing-header-item:nth-child(2),
+  .header .frameless-glazing-container .left-frameless-glazing-container .frameless-glazing-header-container .frameless-glazing-header-item:nth-child(3) {
+    font-size: 28px;
+    line-height: 33.85px;
+  }
+
+  .header .frameless-glazing-container .left-frameless-glazing-container .frameless-glazing-header-container .frameless-glazing-header-item:first-child {
+    font-size: 15px;
+    line-height: 17.4px;
+  }
+
+  .header .frameless-glazing-container .left-frameless-glazing-container .frameless-glazing-description {
+    font-size: 15px;
+    line-height: 17.4px;
+  }
+
+  .header .frameless-glazing-container .left-frameless-glazing-container .under-frameless-order-button-description {
+    font-size: 12.5px;
+    line-height: 15.11px;
+  }
+
+  .header .frameless-glazing-container {
+    display: block;
+    position: relative;
+  }
+
+  .header .frameless-glazing-container .left-frameless-glazing-container {
+    position: absolute;
+    background-color: rgba(255, 255, 255, .7);
+    margin-left: 0;
+    padding-left: 20px;
+    padding-top: 8px;
+    width: calc(100% - 20px);
+    bottom: -55px;
+  }
+
+  .header .frameless-glazing-container .left-frameless-glazing-container .frameless-glazing-description br {
+    display: block;
+  }
+
+  .header .frameless-glazing-container .left-frameless-glazing-container .frameless-order-button {
+    font-size: 15px;
+    line-height: 17.4px;
+    padding: 13px 0;
+    width: 208px;
+    text-align: center;
   }
 
   .advantages .advantages-grid-container {
