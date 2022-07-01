@@ -1651,7 +1651,7 @@ img {
 
 .webp .example .example-video-container { background-image: url(../img/video-background.webp); background-position: center; background-repeat: no-repeat; }
 
-@media (max-width: 425px) {
+@media (max-width: 480px) {
   body {
     overflow-x: hidden;
   }
@@ -1911,6 +1911,7 @@ img {
 
   .adaptive-library-background {
     display: block;
+    width: 100%;
   }
 
   .library .library-container .library-header,
@@ -1974,6 +1975,7 @@ img {
 
   .adaptive-reliable-under-description-image {
     display: block;
+    width: 100vw;
   }
 
   .reliable .reliable-container {
@@ -1983,8 +1985,8 @@ img {
   }
 
   .reliable .reliable-container .right-reliable-image-container {
-    top: 440px;
-    right: 5%;
+    top: 420px;
+    right: 10%;
   }
 
   .reliable .reliable-container .right-reliable-image-container .reliable-vector {
@@ -2067,7 +2069,7 @@ img {
     height: 681px;
   }
 
-  .webp .example .example-video-container { background: url('../img/video-adaptive-background.jpg'); }
+  .webp .example .example-video-container { background: url('../img/video-adaptive-background.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;}
 
   .example .example-video-container .example-video-start-container .start-logo {
     width: 29.43px;
@@ -2270,6 +2272,7 @@ img {
 
   .sure-adaptive-img-container {
     display: flex;
+    justify-content: center;
     margin-bottom: 37px;
   }
 
@@ -2283,5 +2286,12 @@ img {
 
   .slider {
     display: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .reliable .reliable-container .right-reliable-image-container {
+    top: 420px;
+    right: 5%;
   }
 }
